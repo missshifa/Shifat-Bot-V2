@@ -25,7 +25,7 @@ module.exports = {
       const cp = ["bal","zombie","anime","ghost", "watercolor", "sketch", "abstract", "cartoon","monster"];
       const prompts = args[0] || cp[Math.floor(Math.random() * cp.length)];
 
-      const msg = await api.sendMessage("🎨 Processing your image, please wait...", event.threadID);
+      const msg = await api.sendMessage("🎨 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐢𝐦𝐚𝐠𝐞, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭...", event.threadID);
 
       let photoUrl = "";
 
@@ -36,7 +36,7 @@ module.exports = {
       }
 
       if (!photoUrl) {
-        return api.sendMessage("🔰 Please reply to an image or provide a URL!", event.threadID, event.messageID);
+        return api.sendMessage("𝐏𝐥𝐞𝐚𝐬𝐞 𝐫𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚𝐧 𝐢𝐦𝐚𝐠𝐞 𝐨𝐫 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐔𝐑𝐋!", event.threadID, event.messageID);
       }
 
       const response = await axios.get(`${await baseApiUrl()}/art2?url=${encodeURIComponent(photoUrl)}&prompt=${encodeURIComponent(prompts)}`);
@@ -52,7 +52,7 @@ module.exports = {
       const imageStream = await axios.get(imageUrl, { responseType: 'stream' });
 
       await api.sendMessage({ 
-        body: `Here's your artful image! 🎨`, 
+        body: `𝐇𝐞𝐫𝐞'𝐬 𝐲𝐨𝐮𝐫 𝐚𝐫𝐭𝐟𝐮𝐥 𝐢𝐦𝐚𝐠𝐞! 🎨`, 
         attachment: imageStream.data 
       }, event.threadID, event.messageID);
 
