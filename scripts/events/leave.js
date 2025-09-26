@@ -25,7 +25,7 @@ module.exports = {
 			session4: "evening",
 			leaveType1: "left",
 			leaveType2: "was kicked from",
-			defaultLeaveMessage: "{userName} {type} the group"
+			defaultLeaveMessage: "{userName} {type} 𝚃𝙷𝙴 𝙶𝙲 🦖\n 𝙹𝙰 𝚅𝙰𝙶 𝚂𝙰𝙻𝙰 🐤 𝚃𝙾𝚁 𝙼𝙾𝚃𝙾 𝙰𝙱𝙰𝙻 𝙶𝚁𝙾𝚄𝙿 𝙰 𝙽𝙰 𝚃𝙷𝙰𝙺𝙰𝙸 𝚅𝙰𝙻𝙾 🤡"
 		}
 	},
 
