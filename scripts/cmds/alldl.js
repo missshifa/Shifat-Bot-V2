@@ -56,7 +56,7 @@ module.exports = {
         const filename = __dirname + `/cache/dipto${dipto3}`;
         fs.writeFileSync(filename, Buffer.from(response.data, "binary"));
         api.sendMessage({
-            body: `✅ | Downloaded from link`,
+            body: `| 𝐄𝐍𝐉𝐎𝐘 𝐘𝐎𝐔𝐑 𝐕𝐈𝐃𝐄𝐎 😘`,
             attachment: fs.createReadStream(filename),
           },
           event.threadID,
