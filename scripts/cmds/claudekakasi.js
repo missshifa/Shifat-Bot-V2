@@ -7,14 +7,14 @@ const baseApiUrl = async () => {
 };
 
 module.exports.config = {
-  name: "claude2",
+  name: "kakasi",
   version: "1.0.0",
   role: 0,
   author: "dipto",
   description: "Claude ai with multiple conversation",
   usePrefix: true,
   guide: "[message]",
-  category: "Ai",
+  category: "Ai kakasi",
   coolDowns: 5,
 };
 module.exports.onReply = async function ({ api, event, Reply }) {
@@ -51,7 +51,7 @@ module.exports.onStart = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "Please provide a question to answer\n\nExample:\nclaude2 hey",
+        "Please provide a question to answer\n\nExample:\nkakasi hey",
         event.threadID,
         event.messageID,
       );
