@@ -82,7 +82,7 @@ function result(slot1, slot2, slot3, slot4, slot5, winnings, getLang) {
         String.fromCodePoint(0x1d7ce + parseInt(d))
       );
 
-  const slotLine = `🎰 [ ${slot1} | ${slot2} | ${slot3} | ${slot4} | ${slot5} ] 🎰`;
+  const slotLine = `𝐊𝐀𝐊𝐀𝐒𝐇𝐈 𝐒𝐋𝐎𝐓 𝐒𝐘𝐒𝐓𝐄𝐌 \n ═✦══════✦✦══════✦═\n\n\n🎰 [ ${slot1} | ${slot2} | ${slot3} | ${slot4} | ${slot5} ] 🎰`;
 
   if (winnings > 0) {
     if (slot1 === slot2 && slot2 === slot3 && slot3 === slot4 && slot4 === slot5) {
