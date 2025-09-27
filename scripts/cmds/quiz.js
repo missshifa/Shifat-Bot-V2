@@ -8,7 +8,7 @@ const baseApiUrl = async () => {
 };
 
 module.exports.config = {
-    name: "quiz",
+    name: "qz",
     version: "1.0",
     author: "Mesbah Bb'e",
     countDown: 5,
@@ -16,7 +16,7 @@ module.exports.config = {
     description: {
         en: "quiz game",
     },
-    category: "GAME",
+    category: "game",
     guide: {
         en: "{pn}"
     },
