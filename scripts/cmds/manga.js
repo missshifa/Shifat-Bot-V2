@@ -11,7 +11,7 @@ module.exports.config = {
   version: "1.7",
   author: "Dipto",
   role: 0,
-  category: "media",
+  category: "anime",
   description: { 
     en: "Get manga info and read"
   },
