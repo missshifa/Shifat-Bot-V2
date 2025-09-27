@@ -16,7 +16,7 @@ module.exports = {
     const prefix = getPrefix(event.threadID);
     const arg = args[0]?.toLowerCase();
 
-    const header = "╔═━「 𝐇𝐄𝐋𝐏 𝐌𝐄𝐍𝐔 」━═╗";
+    const header = "╔═━「 𝐊𝐀𝐊𝐀𝐒𝐇𝐈 𝐌𝐄𝐍𝐔 」━═╗";
     const footer = "╚═━──────────────━═╝";
 
     if (!arg) {
