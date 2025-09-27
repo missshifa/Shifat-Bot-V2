@@ -13,7 +13,7 @@ const baseApiUrl = async () => {
   version: "1.6.9",
   author: "Nazrul",
   role: 0,
-  category: "utility",
+  category: "media",
   Description: "Convert mp4/mp3/image to link",
   countdown: 5,
   guide: {
