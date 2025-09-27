@@ -7,7 +7,7 @@ const baseApiUrl = async () => {
 };
 module.exports = {
   config: {
-    name: "emi",
+    name: "emg",
     aliases: [],
     version: "6.9.0",
     author: "dipto",
@@ -29,7 +29,7 @@ module.exports = {
       const wait = await api.sendMessage("𝗪𝗮𝗶𝘁 𝗸𝗼𝗿𝗼 𝗕𝗮𝗯𝘆 <😘", event.threadID);
       const response = `${await baseApiUrl()}/emi?prompt=${encodeURIComponent(prompt)}`;
       await api.sendMessage({
-          body: `✅ | Generated your images`,
+          body: `😀 | Generated your images`,
           attachment: await global.utils.getStreamFromURL(response)
         },event.threadID,event.messageID);
          api.unsendMessage(wait.messageID);
