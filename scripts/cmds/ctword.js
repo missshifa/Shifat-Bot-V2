@@ -3,7 +3,7 @@ const { getStreamFromURL } = global.utils;
 
 module.exports = {
 	config: {
-		name: "dhbc",
+		name: "cw",
 		version: "1.3",
 		author: "NTKhang",
 		countDown: 5,
